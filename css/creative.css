@@ -10554,6 +10554,7 @@ header.masthead h1 {
   -webkit-transition: opacity 0.25s ease;
   transition: opacity 0.25s ease;
   text-align: center;
+  margin-left: 62px;
 }
 
 #portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-category {
@@ -10569,4 +10570,8 @@ header.masthead h1 {
 
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
+}
+
+.skill-img{
+    width: 50px;
 }
