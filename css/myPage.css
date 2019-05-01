@@ -1,3 +1,4 @@
+/* portfolio section  */
 .projects-contatiner {
     display: flex;
     flex-direction: row;
@@ -16,8 +17,8 @@
 }
 
 .project-img {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 150px;
     margin-bottom: 10px;
 }
 
@@ -32,4 +33,18 @@
 
 .project-head {
     font-size: 20px;
+}
+
+/* Skills */
+
+.skill-list-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.skill-pic {
+    width: 100px;
+    height: 100px;
 }
