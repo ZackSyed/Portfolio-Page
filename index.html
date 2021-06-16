@@ -96,27 +96,24 @@
       <hr class="divider my-4">
 
       <div>
-        <span id="skill-list">
+        
           <div class="skill-list-container">
-            <img class="skill-pic" src="./img/Devicon-ruby.svg" alt="Ruby">
-            <img class="skill-pic" src="./img/Ruby_On_Rails_Logo.svg" alt="Rails">
-            <img class="skill-pic" src="./img/JavaScript_logo_2.svg" alt="JS">
-            <img class="skill-pic" src="./img/jquery.png" alt="JQuery">
+            <div class="row">
+              <img class="skill-pic" src="./img/Devicon-ruby.svg" alt="Ruby">
+              <img class="skill-pic" src="./img/Ruby_On_Rails_Logo.svg" alt="Rails">
+              <img class="skill-pic" src="./img/JavaScript_logo_2.svg" alt="JS">
+              <img class="skill-pic" src="./img/react-logo.png" alt="React">          
+              <img class="skill-pic" src="./img/Postgresql_elephant.svg" alt="Postgres">
+              <img class="skill-pic" src="./img/mongo_logo.png" alt="MongoDB">
+              <img class="skill-pic" src="./img/html_5.png" alt="HTML_5">
+              <img class="skill-pic" src="./img/CSS3_logo.png" alt="CSS3">    
+              <img class="skill-pic" src="./img/salesforcePlatform-Developer-I.png" alt="Salesforce">
+              <img class="skill-pic" src="./img/Node_logo.jpg" alt="Node">
+              <img class="skill-pic" src="./img/Git-Logo-2Color.png" alt="Github">
+              <img class="skill-pic" src="./img/heroku-logo.jpg" alt="Heroku"> 
+            </div>  
           </div>
-          <div class="skill-list-container">
-            <img class="skill-pic" src="./img/react-logo.png" alt="React">
-            <img class="skill-pic" src="./img/Postgresql_elephant.svg" alt="Postgres">
-            <img class="skill-pic" src="./img/html_5.png" alt="HTML_5">
-            <img class="skill-pic" src="./img/CSS3_logo.png" alt="CSS3">
-          </div>
-
-          <div class="skill-list-container">
-            <img class="skill-pic" src="./img/Git-Logo-2Color.png" alt="Github">
-            <img class="skill-pic" src="./img/heroku-logo.jpg" alt="Heroku">
-            <img class="skill-pic" src="./img/ubuntu.png" alt="Ubuntu">   
-            <img class="skill-pic" src="./img/linux.png" alt="Linux">       
-          </div>
-        </span>
+    
       </div>
     </div>
   </section>
@@ -124,42 +121,96 @@
   <!-- Portfolio Section -->
     <section id="portfolio">
       <div class="portfolio container">
-        <h2 class="text-center mt-0">Projects</h2>
+        <h2 class="text-center mt-0">JavaScript Projects</h2>
         <hr class="divider my-4">
+          <!-- Portfolio Gallery Grid -->
+          
+          <div class="row">
+            <div class="column">
+              <a class="portfolio-link" href="https://zacksyed.github.io/WeatherApp/" target="_blank" rel="noopener">
+                <div class="content">
+                  <img class="project-img" src="img/weatherApp.png">
+                  <h3 class="project-head">Weather App</h3>
+                  <p class="proj-descrip">
+                    A Weather app using the Darksky API and skycons.
+                    To provide localized weather.
+                  </p>
+                </div>
+              </a>  
+            </div>
+            <div class="column">
+              <a class="portfolio-link" href="https://zacksyed.github.io/Hoarder/" target="_blank" rel="noopener">
+                <div class="content">
+                  <img class="project-img" src="img/Hoarder.png">
+                  <h3 class="project-head">Hoarder</h3>
+                  <p class="proj-descrip">
+                    Control the player to hoard the blue dots, 
+                    be careful if you are hit by the mean green dots you lose your stash.
+                    Inspired from a childhood game.
+                  </p>
+                </div>
+              </a>
+            </div>
+          </div>
 
-<!--           <div class="projects-contatiner">
-            <a class="portfolio-link" href="https://itadaki.herokuapp.com/" target="_blank" rel="noopener">
-              <div class="project-holder">
-                <h1 class="project-head">Itadaki</h1>
-                <img class="project-img" src="img/itadaki.png">
-                <p class="portfolio-descrip">
-                  Itadaki is a bill-spliting app that allows friends to pay for the tab.
-                </p>
-              </div>
-            </a> -->
+          <h2 class="text-center mt-0">React Projects</h2>
+          <hr class="divider my-4">
 
+          <div class="content">
+            <img class="project-img" src="img/itadaki.png">
+            <h3>Screener</h3>
+            <p class="proj-descrip">
+              Screener is a React application coupled with a Node.js and MongoDB backend.
+              This is a propriatary work Application.
+              The frontfacing application connected to a Salesforce organization that tracks the recruitment process.
+              The application is used to match professional interviewers (screeners), to talented candidates that need to be placed.
+              Creation of API's that callout to Salesforce through an auth pathway, that allows users of the application to create/edit information from Salesforce.
+            </p>
+          </div>
 
+          <a class="portfolio-link" href="https://itadaki.herokuapp.com/" target="_blank" rel="noopener">
+            <div class="content">
+              <img class="project-img" src="img/itadaki.png">
+              <h3>Itadaki</h3>
+              <p class="proj-descrip">
+                Itadaki is a bill-spliting app that allows friends to pay for the tab.
+                Made with Ruby on Rails, and React.
 
-            <a class="portfolio-link" href="https://zacksyed.github.io/Hoarder/" target="_blank" rel="noopener">
-              <div class="project-holder">
-                <h1 class="project-head">Hoarder</h1>
-                <img class="project-img" src="img/Hoarder.png">
-                <p class="portfolio-descrip">
-                  JavaScript based arcade game, inspired from a childhood game.
-                </p>
-              </div>
-            </a>
+                This is a personal Project.
+              </p>
+            </div>
+          </a>
 
-            <a class="portfolio-link" href="https://zacksyed.github.io/WeatherApp/" target="_blank" rel="noopener">
-              <div class="project-holder">
-                <h1 class="project-head">Weather App</h1>
-                <img class="project-img" src="img/weatherApp.png">
-                <p class="portfolio-descrip">
-                  A Weather app using the Darksky API and skycons.
-                </p>
-              </div>
-            </a>
+          </br>
+          </br> 
+            <h2 class="text-center mt-0">Salesforce Projects</h2>
+            <hr class="divider my-4">
+          <div class="row">
+            <div class="content">
+              <img class="project-img" src="img/npsp Salesforce.png">
+              <h3>S&A Foundation</h3>
+              <p class="proj-descrip">
+                A salesforce implementation of the Non-profit Success Pack. 
+                This is a propriatary work Application that helps the foundation track Donations and Grants.
 
+                Leveraging the power of the salesforce cloud and its automations tools like workflow, process builder.
+                Creates Automated emails to manage customer/client interactions.
+              </p>
+            </div>
+
+            <div class="content">
+              <img class="project-img" src="img/npsp Salesforce.png">
+              <h3>reCrew</h3>
+              <p class="proj-descrip">
+                A salesforce implementation of a recruitment tracking application. 
+                This is a propriatary work Application that helps the company streamline their recruitment processes.
+
+                Implementated varios profiles and security settings to manage data sharing and encrpted data.
+                Manage the data flow through the data import wizard.
+                Creation of various lightning and VisualForce components to compliment everyday work activities.
+                Made the Recruitment pipeline roughly 30% more efficient.
+              </p>
+            </div>
           </div>
         </div>
       </section> 
